@@ -1,0 +1,4 @@
+  - [`require {}`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/require.html#require).
+  - [`String.length`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/length.html#length).
+  - [`count {}`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/count.html#count).
+  - [Zipping](https://kotlinlang.org/docs/reference/collection-transformations.html#zipping).
