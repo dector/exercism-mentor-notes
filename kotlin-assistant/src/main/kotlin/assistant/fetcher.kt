@@ -18,9 +18,10 @@ fun requestSolution(solutionId: String, body: (Solution) -> Unit) {
         .html()
 
     val author = webPage
-        .select(".byline > a:nth-child(1)")
+        .select(".byline")
         .first()
         .html()
+        .removePrefix("by ")
 
     val files = webPage.select(".solution")
         .map { it.getElementsByTag("code") }

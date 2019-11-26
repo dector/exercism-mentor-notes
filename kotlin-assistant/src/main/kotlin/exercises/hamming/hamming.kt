@@ -4,7 +4,7 @@ import assistant.Solution
 import assistant.requestSolution
 
 fun main() {
-    requestSolution("321e9dee9ebe4af1942945ca08146dd9") { solution ->
+    requestSolution("232564e0038a4623b6d0a32328237838") { solution ->
         println("Few suggestions:")
         with(solution) {
             checkRequireIsUsed()
