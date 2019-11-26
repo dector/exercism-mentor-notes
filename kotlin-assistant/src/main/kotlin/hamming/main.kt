@@ -1,5 +1,0 @@
-package hamming
-
-fun main() {
-
-}

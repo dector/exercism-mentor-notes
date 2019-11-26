@@ -7,6 +7,7 @@ plugins {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(Deps.kotlin_coroutines)
+    implementation("org.jsoup:jsoup:1.12.1")
 
     testImplementation(Deps.kotlin_test)
 }
